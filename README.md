@@ -64,10 +64,10 @@ Pull buttons are used to mimic 4 arrow keys.
 #### 1.3.2 Connections
 |Buttons|Arduino Pin|
 |:------------------:|:------------------:|
-|Button 1 (Left)|pin XX|
-|Button 2 (Up)|pin XX|
-|Button 3 (Down)|pin XX|
-|Button 4 (Right)|pin XX|
+|Button 1 (Left)|pin 45|
+|Button 2 (Up)|pin 37|
+|Button 3 (Down)|pin 33|
+|Button 4 (Right)|pin 29|
 
 #### 1.3.3 Circuit Diagram
 ![Buttons Circuit](/photos/ButtonCircuit.jpg?raw=true "Buttons Circuit")
