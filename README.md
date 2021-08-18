@@ -1,6 +1,6 @@
 # Arduino Cell Phone Project
 
-The goal of this project is to create a mini cellphone display using Arduino components. Once completed, the user will be able to type text using a number pad (the way the old cell phones used to do) and see the text on the LCD. This LCD displays up to 16 characters. In addition, the bottom row of the display shows the cursor.
+The goal of this project is to create a mini cellphone display using Arduino components. Once completed, the user will be able to type text using a number pad (the way the old cell phones used to do) and see the text on the LCD.
 
 ## 1.0 THE CIRCUIT
 ### 1.1 LCD Display
