@@ -28,7 +28,7 @@ The LCD displays the text input by the membrane switch module.
 |16-K|GND|GND|
 
 #### 1.1.3 Circuit Diagram
-![LCD Circuit](../photos/LCDCircuit.jpg?raw=true "LCD Circuit")
+![LCD Circuit](https://github.com/VictoriaBuchanan/Cellphone/blob/master/photos/ButtonCircuit.jpg)
 
 ### 1.2 Number Pad
 
@@ -49,7 +49,7 @@ The LCD displays the text input by the membrane switch module.
 |col 4|pin 50|
 
 #### 1.2.3 Circuit Diagram
-![Membrane Numberpad Circuit](../photos/NumberpadCircuit.jpg?raw=true "Membrane Numberpad Circuit")
+![Membrane Numberpad Circuit](photos/NumberpadCircuit.jpg?raw=true "Membrane Numberpad Circuit")
 
 ### 1.3 Buttons
 
@@ -70,7 +70,7 @@ Pull buttons are used to mimic 4 arrow keys.
 |Button 4 (Right)|pin XX|
 
 #### 1.3.3 Circuit Diagram
-![Buttons Circuit](../photos/ButtonCircuit.jpg?raw=true "Buttons Circuit")
+![Buttons Circuit](/photos/ButtonCircuit.jpg?raw=true "Buttons Circuit")
 
 ## 2.0 BUILD INSTRUCTIONS
 All the files in this project are in C++. The uploaded build works in VSCode with the [PlatformIO IDE](https://platformio.org/) add in.  To install PlatformIO you will need to install the ArduinoIDE and the Visual Studio Code plugin for PlatformIO. Instructions on how to install these programs can be found [here](https://www.youtube.com/watch?v=dany7ae_0ks).
