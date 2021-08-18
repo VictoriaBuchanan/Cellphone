@@ -4,7 +4,7 @@ The goal of this project is to create a mini cell phone display using Arduino co
 
 ## 1.0 THE CIRCUIT
 ### 1.1 LCD Display
-The LCD displays the text input by the membrane switch module.
+The LCD displays the text input by the membrane switch module. In this project, the first line of the LCD displays up to 16 characters of text, and the second line displays the cursor, which shows where the user is in the typing process.
 #### 1.1.1 Components
 - 10k Potentiometer (1)
 - Breadboard (1)
@@ -31,6 +31,10 @@ The LCD displays the text input by the membrane switch module.
 ![LCD Circuit](photos/LCDCircuit.jpg?raw=true "LCD Circuit")
 
 ### 1.2 Number Pad
+Text for this cellphone is inputted using a 4x4 Membrane Keypad. This keypad has the following buttons:
+- Numbers 0-9
+- * and # buttons
+- Letters A-D where A moves the cursor to the right, B moves the cursor to the left, C clears the entire screen and D deletes a letter.
 
 #### 1.2.1 Components
 - Male to male wires (8)
@@ -52,8 +56,7 @@ The LCD displays the text input by the membrane switch module.
 ![Membrane Numberpad Circuit](photos/NumberpadCircuit.jpg?raw=true "Membrane Numberpad Circuit")
 
 ### 1.3 Buttons
-
-Pull buttons are used to mimic 4 arrow keys.
+Four pull buttons are used to mimic four arrow keys (left, up, down, and right).
 
 #### 1.3.1 Components
 - 4 pin buttons (4)
