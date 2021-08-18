@@ -33,7 +33,7 @@ The LCD displays the text input by the membrane switch module. In this project, 
 ### 1.2 Number Pad
 Text for this cellphone is inputted using a 4x4 Membrane Keypad. This keypad has the following buttons:
 - Numbers 0-9
-- * and # buttons
+- \* and # buttons
 - Letters A-D where A moves the cursor to the right, B moves the cursor to the left, C clears the entire screen and D deletes a letter.
 
 #### 1.2.1 Components
