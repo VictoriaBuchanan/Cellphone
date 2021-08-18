@@ -28,7 +28,7 @@ The LCD displays the text input by the membrane switch module.
 |16-K|GND|GND|
 
 #### 1.1.3 Circuit Diagram
-![LCD Circuit](../photos/LCDCircuit.jpg?raw=true "LCD Circuit")
+![LCD Circuit](photos/LCDCircuit.jpg?raw=true "LCD Circuit")
 
 ### 1.2 Number Pad
 
@@ -49,7 +49,7 @@ The LCD displays the text input by the membrane switch module.
 |col 4|pin 50|
 
 #### 1.2.3 Circuit Diagram
-![Membrane Numberpad Circuit](../photos/NumberpadCircuit.jpg?raw=true "Membrane Numberpad Circuit")
+![Membrane Numberpad Circuit](photos/NumberpadCircuit.jpg?raw=true "Membrane Numberpad Circuit")
 
 ### 1.3 Buttons
 
@@ -64,16 +64,16 @@ Pull buttons are used to mimic 4 arrow keys.
 #### 1.3.2 Connections
 |Buttons|Arduino Pin|
 |:------------------:|:------------------:|
-|Button 1 (Left)|pin XX|
-|Button 2 (Up)|pin XX|
-|Button 3 (Down)|pin XX|
-|Button 4 (Right)|pin XX|
+|Button 1 (Left)|pin 45|
+|Button 2 (Up)|pin 37|
+|Button 3 (Down)|pin 33|
+|Button 4 (Right)|pin 29|
 
 #### 1.3.3 Circuit Diagram
-![Buttons Circuit](../photos/ButtonCircuit.jpg?raw=true "Buttons Circuit")
+![Buttons Circuit](/photos/ButtonCircuit.jpg?raw=true "Buttons Circuit")
 
 ## 2.0 BUILD INSTRUCTIONS
 All the files in this project are in C++. The uploaded build works in VSCode with the [PlatformIO IDE](https://platformio.org/) add in.  To install PlatformIO you will need to install the ArduinoIDE and the Visual Studio Code plugin for PlatformIO. Instructions on how to install these programs can be found [here](https://www.youtube.com/watch?v=dany7ae_0ks).
 
 ## 3.0 FURTHER READING
-For more information on how to wire the circuits to the Arduino DroneBot Workshop has several YouTube tutorials on the [Matrix Keypad](https://www.youtube.com/watch?v=vl1-R6NsejM&t=1343s) and the [LCD1602](https://www.youtube.com/watch?v=wEbGhYjn4QI&t=568s). Paul McWhorter also has a useful YouTube video on how the [pull buttons](https://www.youtube.com/watch?v=AgQW81zzR18) work.
+For more information on how to wire the circuits to the Arduino, DroneBot Workshop has several YouTube tutorials on the [Matrix Keypad](https://www.youtube.com/watch?v=vl1-R6NsejM&t=1343s) and the [LCD1602](https://www.youtube.com/watch?v=wEbGhYjn4QI&t=568s). Paul McWhorter also has a useful YouTube video on how the [pull buttons](https://www.youtube.com/watch?v=AgQW81zzR18) work.
